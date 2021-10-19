@@ -1,14 +1,9 @@
 # salesforce-apex-contract
-salesforce-apex-contractでは、salesforce sand box 環境で動作する Apex コードを管理します。
+salesforce-apex-contract は、salesforce sand box 環境で動作する Apex コードを管理します。
 
-## 動作環境
-salesforce-apex-contractは、salesforce の CLI の sfdx を使用します。[こちらから](https://developer.salesforce.com/docs/atlas.ja-jp.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm) を参考にインストールしてください。
-
-- OS: Linux, Mac, Windows
-
-- CPU: amd64, arm64
 ## 使用方法
-下記コマンドを実行する事で既存の make コマンドの一覧と説明を出力します。
+salesforce の CLI の sfdx を使用します。[こちら](https://developer.salesforce.com/docs/atlas.ja-jp.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm) を参考にインストールしてください。
+また、下記コマンドを実行する事で既存の make コマンドの一覧と説明を出力します。
 ```
 $ make
 sf-login             sandbox 環境にログインします。
